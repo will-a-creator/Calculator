@@ -1,6 +1,17 @@
+
 table{
-    border: 6px solid orange;
+    /* border: 6px solid orange; */
     border-radius: 6px;
     padding: 3px;
-    text-align: center;
+    /* text-align: center; */
+}
+.container{
+    width: 220px;
+    background-color:skyblue;
+}
+body{
+    background-color: royalblue;
+}
+table.center {
+    
 }

@@ -11,12 +11,15 @@
   <link href="style.css" rel="stylesheet">
 </head>
 
-
+    <h1 id="title">Calculator</h1>
     <div class = "container">
-    <table border=1 cellspacing="7">
+    <table class="center" border=1 cellspacing="7">
         <!-- <tr>
             <td>"000"</td>
         </tr> -->
+        <tr>
+            <td colspan ="4" id="input">00</td>
+        </tr>
         <tr id ="boxed">
             <td><button onClick="pushBtn(this);">7</button></td>
             <td><button onClick="pushBtn(this);">8</button></td>
@@ -40,7 +43,7 @@
             <th><button onClick="pushBtn">+</button></th>
         </tr>
         <tr>
-            <td >AC</td>
+            <td><button onClick="pushBtn(this);">C</button></td>
         </tr>
 
 
