@@ -31,3 +31,17 @@ button{
     height: 40px;
     font-size: 17px; 
 }
+.btn{
+    background:rgb(249, 83, 255);
+    width: 45px;
+    
+}
+.btn:hover{
+    background: rgb(199, 65, 240);
+}
+#input{
+    height: 55px;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 35px;
+}
