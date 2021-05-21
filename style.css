@@ -17,7 +17,7 @@ table{
 }
 .container{
     width: 232px;
-    background-color:skyblue;
+    background-color:rgb(47, 210, 221);
     margin: 120px auto;
 }
 body{
@@ -30,14 +30,27 @@ button{
     width: 100%;
     height: 40px;
     font-size: 17px; 
+    color:white;
 }
 .btn{
-    background:rgb(249, 83, 255);
+    background:rgb(121, 39, 214);
     width: 45px;
-    
 }
 .btn:hover{
     background: rgb(199, 65, 240);
+}
+.btn2{
+    background: rgb(255, 22, 185);
+    width:45px;
+}
+.btn2:hover{
+    background: rgb(244, 120, 255)
+}
+.btn3{
+    background: rgb(45, 43, 177);
+}
+.btn3:hover{
+    background:rgb(70, 70, 255);
 }
 #input{
     height: 55px;
