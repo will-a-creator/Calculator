@@ -1,22 +1,23 @@
 var input = document.getElementById('input');
+
 // document.querySelector('#input').innerHTML = input; //this is how to change the display
 function pushBtn(obj){
     var display = obj.innerHTML; 
-    var string = "";
+    
     if(display == '='){
         input.innerHTML = eval(input.innerHTML);
     }
-    if(display == 'C'){
+    else if (display == 'C'){
         input.innerHTML = '0';
     } else {
-        string += display;
-        input.innerHTML = string;
+        if(input.innerHTML == "0"){
+            input.innerHTML = display;
+        } else {
+            input.innerHTML += display;
+        }
     }
-    
-    
-
-
 }
+
 //math functions
 // const add = function(a, b){
 //     return a + b;
